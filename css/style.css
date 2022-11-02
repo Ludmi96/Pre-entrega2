@@ -99,6 +99,9 @@ main{
 .banner img{
     width: 100%;   
 }
+.carousel-inner{
+    height: 450px;
+}
 .presentacion-container section{
     display: flex;
     flex-direction: column;
