@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:display=swap);
+header {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+header div {
+  width: 91, 1%;
+  padding: 10px;
+  padding-left: 35px;
+  background-color: #012E40;
+  color: white;
+  font-family: Roboto;
+  word-spacing: 1px;
+}
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 150px;
+}
+header section img {
+  height: 100px;
+}
+header nav li a {
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  justify-content: space-between;
+}
+header nav ul {
+  list-style: none;
+  margin-left: 150px;
+}
+header nav ul li {
+  padding: 15px;
+  display: inline-block;
+}
+header nav li {
+  position: relative;
+  display: inline-block;
+}
+header nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 350px;
+  text-align: left;
+  margin: 15px 0px;
+}
+header nav a {
+  color: white;
+}
+header nav li:hover > ul {
+  display: block;
+  background-color: #038c8c;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url(../assets/fonts/Gotham-Font/GothamBold.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
