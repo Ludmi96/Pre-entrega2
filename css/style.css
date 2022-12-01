@@ -375,7 +375,7 @@ main {
     width: 100%;
   }
   .clasificacion {
-    width: 40%;
+    width: 100%;
     margin: 5px;
     padding: 10px;
   }
@@ -406,7 +406,7 @@ main {
     width: auto;
   }
   .clasificacion {
-    width: 40%;
+    width: 100%;
     margin: 5px;
     padding: 10px;
   }
