@@ -1,16 +1,17 @@
 footer{
     display: block;
     width: 100%;
-    background-color: #038c8c;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    background-color: whitesmoke;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
-.redes h4{
+.redes{
     text-align: center;
     align-items: center;
-    color: white;
+    color: #012e40;
     font-size: 20px;
     font-family: Roboto;
+    text-decoration-line: underline;
 
 }
 .iconos{
@@ -18,8 +19,12 @@ footer{
     flex-direction: row;
     justify-content: center;    
 }
-
+footer a{
+    text-decoration: none;
+}
 .icon{
-    width: 15px;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
     color: white;
 }

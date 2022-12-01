@@ -58,22 +58,95 @@ header nav a {
 header nav li:hover > ul {
   display: block;
   background-color: #012E40;
+  color: white;
+}
+
+/*Contacto*/
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 50%;
+}
+
+.form label {
+  width: 100%;
+  font-size: 1em;
+  font-family: Roboto;
+  color: #51a6a6;
+}
+
+.form input {
+  width: 100%;
+  height: 35px;
+  display: block;
+  margin: auto;
+  background-color: F2F2F2;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid #51a6a6;
+  padding-left: 10px;
+}
+
+.form input:focus-visible {
+  outline: 2px solid #51a6a6;
+}
+
+.form input::-webkit-input-placeholder {
+  color: #f28705;
+}
+
+.form textarea {
+  display: block;
+  margin: auto;
+  background-color: #fbfbfb;
+  width: 90%;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #51a6a6;
+  margin-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+.form textarea:focus {
+  outline: 2px solid #51a6a6;
+}
+
+.form .required {
+  color: #95bfb8;
+  text-shadow: 0px 0px 5px #787878;
+}
+
+.form .aviso {
+  font-size: 13px;
+  color: black;
+}
+
+.form .button_enviar {
+  width: 100%;
+  height: 45px;
+  background-color: #51a6a6;
+  border: #51a6a6 outset;
 }
 
 footer {
   display: block;
   width: 100%;
-  background-color: #038c8c;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  background-color: whitesmoke;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
-.redes h4 {
+.redes {
   text-align: center;
   align-items: center;
-  color: white;
+  color: #012e40;
   font-size: 20px;
   font-family: Roboto;
+  text-decoration-line: underline;
 }
 
 .iconos {
@@ -82,9 +155,14 @@ footer {
   justify-content: center;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 .icon {
-  padding: 10px;
-  width: 15px;
+  padding: 15px;
+  font-size: 40px;
+  text-align: center;
   color: white;
 }
 
@@ -178,9 +256,17 @@ main {
   background-color: #F2F2F2;
 }
 
+.tarjeta:hover {
+  background-color: #FFBC14;
+}
+
 .tarjeta-imagen {
   border-radius: 5px;
   width: 100%;
+}
+
+.tarjeta-imagen::selection {
+  scale: 10%;
 }
 
 .subtitulo {
@@ -197,6 +283,127 @@ main {
   color: #818274;
 }
 
+.quienes-somos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.titulos {
+  padding: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: Gotham;
+  color: #f28705;
+  background-color: #012E40;
+  margin: 1em;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.ecc li {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: Gotham;
+  color: #012e40;
+  list-style: none;
+}
+
+.foto-container {
+  display: block;
+  align-content: center;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  align-self: center;
+  text-align: center;
+}
+
+.foto {
+  width: 300px;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+/*SERVICIOs*/
+.consultoria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.clasificacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin: 30px;
+  padding: 40px;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+}
+
+.cuadrado {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.area {
+  font-size: 20px;
+  color: #012e40;
+  padding: 10px;
+  text-align: center;
+}
+
+.listas {
+  font-size: 15px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .tarjetas-container {
+    flex-wrap: wrap;
+  }
+  .tarjeta {
+    width: 100%;
+  }
+  .clasificacion {
+    width: 40%;
+  }
+  .form {
+    width: 80%;
+  }
+  .titulos {
+    padding: auto;
+    width: auto;
+  }
+  .encabezado {
+    width: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .quienes-somos {
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .foto-container {
+    align-self: center;
+  }
+  .titulos {
+    padding: auto;
+    width: auto;
+  }
+  .encabezado {
+    width: auto;
+  }
+}
 @font-face {
   font-family: "Gotham";
   src: url(../assets/fonts/Gotham-Font/GothamBold.ttf);

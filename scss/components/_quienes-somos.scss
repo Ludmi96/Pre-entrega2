@@ -1,0 +1,43 @@
+.quienes-somos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.titulos{
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Gotham;
+    color: #f28705;
+    background-color: #012E40;
+    margin: 1em;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.ecc li{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Gotham;
+    color: #012e40;
+    list-style: none;
+}
+.foto-container{
+    display: block;
+    align-content: center;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    align-self: center;
+    text-align: center;
+}
+.foto{
+    width: 300px;
+    border-radius: 5px;
+    padding: 25px;
+}

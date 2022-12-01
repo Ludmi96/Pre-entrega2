@@ -77,9 +77,15 @@ main{
     padding: 30px;
     background-color:#F2F2F2 ;
 }
+.tarjeta:hover{
+    background-color: #FFBC14;
+}
 .tarjeta-imagen {
     border-radius: 5px;
     width: 100%;
+}
+.tarjeta-imagen::selection{
+    scale: 10%;
 }
 .subtitulo{
     color: #038c8c;

@@ -1,0 +1,42 @@
+@media screen and (max-width: 800px){
+    
+    .tarjetas-container{
+        flex-wrap: wrap;
+
+    }
+    .tarjeta{
+        width: 100%;
+    }
+
+    .clasificacion{
+        width: 40%;
+    }
+
+    .form{
+        width: 80%;
+    }
+    .titulos{
+        padding: auto;
+        width: auto;
+    }
+    .encabezado{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .quienes-somos{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .foto-container{
+        align-self: center;
+    }
+    .titulos{
+        padding: auto;
+        width: auto;
+    }
+    .encabezado{
+        width: auto;
+    }
+}
