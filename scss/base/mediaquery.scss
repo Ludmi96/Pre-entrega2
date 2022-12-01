@@ -1,11 +1,14 @@
 @media screen and (max-width: 800px){
-    
+    li ul{
+        margin: 0%;
+    }
     .tarjetas-container{
         flex-wrap: wrap;
 
     }
     .tarjeta{
         width: 100%;
+        margin: 5%;
     }
 
     .clasificacion{

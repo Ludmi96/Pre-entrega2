@@ -250,7 +250,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 35%;
+  width: 40%;
   margin: 50px;
   padding: 30px;
   background-color: #F2F2F2;
@@ -372,11 +372,15 @@ main {
 }
 
 @media screen and (max-width: 800px) {
+  li ul {
+    margin: 0%;
+  }
   .tarjetas-container {
     flex-wrap: wrap;
   }
   .tarjeta {
     width: 100%;
+    margin: 5%;
   }
   .clasificacion {
     width: 100%;
