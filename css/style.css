@@ -50,13 +50,151 @@ header nav li ul {
   min-width: 350px;
   text-align: left;
   margin: 15px 0px;
+  color: white;
 }
 header nav a {
   color: white;
 }
 header nav li:hover > ul {
   display: block;
+  background-color: #012E40;
+}
+
+footer {
+  display: block;
+  width: 100%;
   background-color: #038c8c;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.redes h4 {
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  padding: 10px;
+  width: 15px;
+  color: white;
+}
+
+main {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.carousel-inner {
+  height: 450px;
+}
+
+.presentacion-container section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.presentacion-titulo {
+  color: #FFBC14;
+  font-size: 3em;
+  font-family: Gotham;
+  padding: 20px;
+}
+
+.presentacion-parrafo {
+  font-size: 25px;
+  font-family: Roboto;
+  text-align: center;
+  margin: 20px;
+  padding: 40px;
+}
+
+.linea {
+  border-top: 5px solid #f28705;
+  height: 2px;
+  max-width: 200px;
+  padding: 0px;
+  margin: 20px auto 0 auto;
+}
+
+.servicios {
+  padding: 2em;
+  border-left: 1px ridge #818274;
+  border-right: 1px ridge #818274;
+  margin: 20px;
+}
+
+.servicios h1 {
+  text-align: center;
+  color: #FFBC14;
+  font-size: 55px;
+  font-family: Roboto;
+  padding: 30px;
+  background-color: #038c8c;
+  margin-bottom: 20px;
+}
+
+.refe {
+  text-align: center;
+  font-size: 20px;
+  color: #818274;
+}
+
+.tarjetas-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  margin: 50px;
+  padding: 30px;
+  background-color: #F2F2F2;
+}
+
+.tarjeta-imagen {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.subtitulo {
+  color: #038c8c;
+  padding-top: 30px;
+}
+
+.parrafo {
+  text-align: justify;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  color: #818274;
 }
 
 @font-face {
