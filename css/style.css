@@ -405,6 +405,11 @@ main {
   .encabezado {
     width: auto;
   }
+  .clasificacion {
+    width: 40%;
+    margin: 5px;
+    padding: 10px;
+  }
 }
 @font-face {
   font-family: "Gotham";
