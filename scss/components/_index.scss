@@ -18,21 +18,20 @@ main{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 .presentacion-titulo{
     color: #FFBC14;
-    font-size: 3em;
+    font-size: 50px;
     font-family: Gotham;
-    padding: 20px;
+    padding: 10px;
 }
 .presentacion-parrafo{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Roboto;
     text-align: center;
     margin: 20px;
-    padding: 40px;
+    padding: 20px;
 }
 .linea{
     border-top: 5px solid #f28705;

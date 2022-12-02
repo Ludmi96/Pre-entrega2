@@ -190,23 +190,22 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .presentacion-titulo {
   color: #FFBC14;
-  font-size: 3em;
+  font-size: 50px;
   font-family: Gotham;
-  padding: 20px;
+  padding: 10px;
 }
 
 .presentacion-parrafo {
-  font-size: 25px;
+  font-size: 20px;
   font-family: Roboto;
   text-align: center;
   margin: 20px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .linea {
@@ -305,6 +304,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 2em;
+  text-align: justify;
 }
 
 .ecc li {
@@ -314,6 +314,10 @@ main {
   font-family: Gotham;
   color: #012e40;
   list-style: none;
+}
+
+.descripcion {
+  text-align: center;
 }
 
 .foto-container {
@@ -326,9 +330,9 @@ main {
 }
 
 .foto {
-  width: 300px;
+  width: 400px;
   border-radius: 5px;
-  padding: 25px;
+  padding: 20px;
 }
 
 /*SERVICIOs*/
